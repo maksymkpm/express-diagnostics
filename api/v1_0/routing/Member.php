@@ -7,4 +7,7 @@ use \rest\request;
 router::addController('', MemberController::class);
 
 router::controller(MemberController::class)
-	->addAction(request::HTTP_POST, 'Member/get', 'Get');
+	->addAction(request::HTTP_GET, 'member', 'Get');
+	
+router::controller(MemberController::class)
+	->addAction(request::HTTP_POST, 'member', 'Create');

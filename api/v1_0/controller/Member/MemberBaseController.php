@@ -1,10 +1,10 @@
 <?php
-namespace api\v1_0\controller\Issue;
+namespace api\v1_0\controller\Member;
 
 use rest\components\auth\BearerAuth;
 use api\v1_0\controller\BaseController as BaseController;
 
-abstract class IssueBaseController extends BaseController  {
+abstract class MemberBaseController extends BaseController  {
 	protected function runBeforeAction() {
 		parent::runBeforeAction();
 		
