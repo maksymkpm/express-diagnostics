@@ -16,7 +16,7 @@
     }
   },
   "require": {
-    "common": "dev-master",
+    "express-diagnostics-common": "dev-master",
     "rest": "dev-master"
   },
   "__require": {
