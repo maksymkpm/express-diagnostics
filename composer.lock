@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e531e091ebd917ebe59ec99138f73943",
+    "packages": [
+        {
+            "name": "common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maksymkpm/common.git",
+                "reference": "566436fd168a32d83ccf510e791e6358878e9039"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": [
+                        "classes/",
+                        "classes/Exception/"
+                    ]
+                }
+            },
+            "time": "2018-01-21 12:43:45"
+        },
+        {
+            "name": "rest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maksymkpm/rest.git",
+                "reference": "836e6fd7f9ba005c3bb6321b022c9e8019eac3c4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "rest\\": "/"
+                }
+            },
+            "time": "2017-03-03 11:14:36"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "common": 20,
+        "rest": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
