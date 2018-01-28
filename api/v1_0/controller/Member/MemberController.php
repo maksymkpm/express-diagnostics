@@ -14,14 +14,14 @@ class MemberController extends MemberBaseController {
 
 	protected function actionGet() {
 		$get = $this->request->dataGet();
-		//$params = new MemberGet($get);
+		$params = new MemberGet($get);
 
-		//$Member = \Member::Get((int) $params->Member_id);
+		$Member = \Member::Get((int) $params->Member_id);
 
 		$result = [
 			"Member Get response",
-			$get
-			//'Member_id' => $Member->data['Member_id'],
+			$get,
+			'Member_id' => $Member->data['Member_id'],
 		];
 
 		$this->response->set($result);
